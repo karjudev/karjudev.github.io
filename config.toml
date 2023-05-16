@@ -56,6 +56,12 @@ displayrssicon = true
     weight = 200
     url = "/about/"
 
+[[menu.main]]
+    name = "curriculum"
+    identifier = "curriculum"
+    weight = 300
+    url = "/cv.pdf"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
