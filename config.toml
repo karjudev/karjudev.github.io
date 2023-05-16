@@ -1,0 +1,62 @@
+## Basic Configuration
+
+baseurl = "https://karjudev.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Giacomo Mariani"
+title = "Giacomo Mariani"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Giacomo Mariani"
+intro = "Computer Science student and researcher  \nNLP, Information Retrieval & Big Data enthusiast"
+description = "Research Scholar @ [A<sup>3</sup> Lab](http://acube.di.unipi.it), University of Pisa.  \nPreviously @ [OSEP](https://osep.jus.unipi.it) and [KDD Lab](https://kdd.isti.cnr.it)."
+authorimage = "avatar-square.jpg"
+dateformat = "01/01/2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Computer Science student and researcher, NLP & Big Data enthusiast"
+keywords = "information retrieval,legal tech,nlp,machine learning,ml,ai"
+
+## Social Accounts
+[params.social]
+github = "karjudev"
+# instagram = "<username>"
+linkedin = "karjudev"
+telegram = "karjudev"
+email = "karjudev@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2023. Giacomo Mariani. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
